@@ -98,6 +98,8 @@ export default function Home() {
         <a className="wordmark" href="#top" aria-label="Aastha Trivedi, home">AT<span>.</span></a>
         <div className="nav-links">
           <a href="#experience">Experience</a><a href="#work">Work</a><a href="#skills">Skills</a>
+          {/* oxlint-disable-next-line next/no-html-link-for-pages -- this points to a public static tool, not a Next route. */}
+          <a href="cover-letter/">Application kit</a>
           <a className="nav-cta" href="mailto:aasthatrivedi1997@gmail.com">Let&apos;s talk <ArrowUpRight size={15} aria-hidden="true" /></a>
         </div>
       </nav>

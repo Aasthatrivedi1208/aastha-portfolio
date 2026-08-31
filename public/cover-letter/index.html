@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Cover Letter Generator | Aastha Trivedi</title>
+    <style>
+      :root { --ink:#102a2e; --soft:#52696c; --paper:#f4f1ea; --surface:#fffefa; --accent:#e05a3f; --line:rgba(16,42,46,.16); }
+      * { box-sizing:border-box; }
+      body { background:var(--paper); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; margin:0; }
+      a { color:inherit; }
+      .shell { margin:0 auto; max-width:1180px; padding:0 28px 64px; }
+      header { align-items:center; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; min-height:76px; }
+      header a,.profile a { align-items:center; color:var(--soft); display:inline-flex; font-size:.82rem; font-weight:750; gap:8px; text-decoration:none; }
+      .brand { font-size:.84rem; font-weight:850; letter-spacing:-.03em; } .brand b { color:var(--accent); }
+      .intro { align-items:end; display:grid; gap:52px; grid-template-columns:minmax(0,1fr) 295px; padding:76px 0 54px; }
+      .eyebrow { color:var(--accent); font:700 .7rem ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.08em; margin:0 0 17px; text-transform:uppercase; }
+      h1 { font-size:clamp(2.9rem,5.7vw,5.7rem); letter-spacing:-.07em; line-height:.92; margin:0; max-width:760px; }
+      .intro-copy { color:var(--soft); font-size:1rem; line-height:1.7; margin:24px 0 0; max-width:640px; }
+      .profile { background:var(--ink); color:var(--surface); min-height:178px; padding:24px; }
+      .profile span,.profile p { color:rgba(255,254,250,.62); display:block; font:500 .68rem ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.05em; margin:0; text-transform:uppercase; }
+      .profile strong { display:block; font-size:1.2rem; letter-spacing:-.04em; margin:20px 0 6px; }
+      .profile a { color:#fff4eb; margin-top:23px; }
+      form { align-items:start; display:grid; gap:18px; grid-template-columns:minmax(310px,.82fr) minmax(420px,1.18fr); }
+      .panel { background:var(--surface); border:1px solid var(--line); padding:30px; }
+      .panel-title { align-items:start; display:flex; gap:14px; margin-bottom:29px; }
+      .number { align-items:center; background:var(--ink); border-radius:50%; color:var(--surface); display:inline-flex; flex:0 0 auto; font:500 .65rem ui-monospace,SFMono-Regular,Menlo,monospace; height:28px; justify-content:center; width:28px; }
+      .panel-title p { color:var(--accent); font:700 .67rem ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.075em; margin:0 0 5px; text-transform:uppercase; }
+      h2 { font-size:1.28rem; letter-spacing:-.04em; margin:0; }
+      .form-grid { display:grid; gap:17px; grid-template-columns:1fr 1fr; }
+      label { display:grid; font-size:.77rem; font-weight:760; gap:8px; } label.full { grid-column:span 2; } label b { color:var(--accent); }
+      input,textarea { background:#fffefa; border:1px solid rgba(16,42,46,.23); border-radius:2px; color:var(--ink); font:450 .88rem/1.55 inherit; outline:none; padding:11px 12px; resize:vertical; width:100%; }
+      input:focus,textarea:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(224,90,63,.13); }
+      textarea { min-height:80px; }
+      button { align-items:center; border:0; cursor:pointer; display:inline-flex; font:800 .8rem inherit; gap:8px; justify-content:center; }
+      .refresh { background:var(--ink); color:var(--surface); margin-top:24px; padding:12px 16px; }
+      .preview-title { align-items:center; } .copy { background:transparent; border:1px solid var(--line); color:var(--soft); margin-left:auto; padding:9px 12px; }
+      #letter { font-family:Georgia,"Times New Roman",serif; font-size:.95rem; line-height:1.65; min-height:602px; padding:28px; }
+      .preview-footer { align-items:center; display:flex; gap:20px; justify-content:space-between; margin-top:18px; }
+      #status { color:var(--soft); font-size:.75rem; line-height:1.45; margin:0; max-width:350px; }
+      .download { background:var(--accent); color:#fff9f2; flex:0 0 auto; padding:13px 16px; }
+      .tip { border-top:1px solid var(--line); color:var(--soft); font-size:.82rem; line-height:1.6; margin-top:58px; padding-top:22px; } .tip strong { color:var(--ink); }
+      @media (max-width:880px) { .intro,form { grid-template-columns:1fr; } }
+      @media (max-width:620px) { .shell { padding:0 16px 42px; } header { min-height:62px; } .brand { display:none; } .intro { gap:32px; padding:52px 0 38px; } h1 { font-size:clamp(2.65rem,13vw,4rem); } .panel { padding:22px; } .form-grid { grid-template-columns:1fr; } label.full { grid-column:auto; } #letter { min-height:510px; padding:20px; } .preview-footer { align-items:stretch; flex-direction:column; } .download { width:100%; } }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <a href="../">← Portfolio</a>
+        <div class="brand">AT<b>.</b> Application kit</div>
+        <a href="../Aastha_Trivedi_Resume.pdf" download>Download résumé</a>
+      </header>
+
+      <section class="intro">
+        <div>
+          <p class="eyebrow">✦ Cover letter generator</p>
+          <h1>One strong starting point for every application.</h1>
+          <p class="intro-copy">Enter each company’s details, refine the editable letter, and download a clean PDF. Your profile details stay fixed, and everything runs in this browser.</p>
+        </div>
+        <aside class="profile">
+          <span>Profile fixed in this tool</span>
+          <strong>Aastha Trivedi</strong>
+          <p>Bengaluru, India</p>
+          <a href="https://www.linkedin.com/in/aastha-trivedi-809b94126" target="_blank" rel="noreferrer">View LinkedIn ↗</a>
+        </aside>
+      </section>
+
+      <form id="generator">
+        <section class="panel">
+          <div class="panel-title"><span class="number">01</span><div><p>Job details</p><h2>What changes for this application?</h2></div></div>
+          <div class="form-grid">
+            <label class="full">Company name <b>*</b><input id="company" value="Adjoe" required /></label>
+            <label>Role / title<input id="role" value="Senior Data Engineer" /></label>
+            <label>Company location<input id="location" value="Hamburg, Germany" /></label>
+            <label class="full">Hiring manager (optional)<input id="manager" placeholder="e.g. Ms. Sharma" /></label>
+            <label class="full">Job description or key requirements (optional)<textarea id="description" rows="5">Build reliable, scalable data platforms and collaborate across product and engineering teams.</textarea></label>
+            <label class="full">Why this company? (optional)<textarea id="companyNote" rows="3" placeholder="e.g. the chance to work on mobile advertising data products"></textarea></label>
+            <label class="full">Relocation / work authorisation<textarea id="authorization" rows="3">I am currently based in India, open to relocating, and would require employer-sponsored work authorization.</textarea></label>
+          </div>
+          <button class="refresh" type="button" id="refresh">↻ Refresh letter</button>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title preview-title"><span class="number">02</span><div><p>Editable preview</p><h2>Make it sound like Aastha.</h2></div><button class="copy" type="button" id="copy">Copy</button></div>
+          <textarea id="letter" aria-label="Editable cover letter"></textarea>
+          <div class="preview-footer"><p id="status" aria-live="polite">Example loaded - replace the company details before downloading.</p><button class="download" type="submit">Download PDF ↓</button></div>
+        </section>
+      </form>
+      <p class="tip"><strong>Before sending:</strong> replace the example company, add one specific reason for applying, and check the relocation statement against the role’s visa policy.</p>
+    </main>
+
+    <script src="vendor/jspdf.umd.min.js"></script>
+    <script>
+      const profile = {
+        name: 'Aastha Trivedi', location: 'Bengaluru, India', email: 'aasthatrivedi1997@gmail.com',
+        linkedin: 'linkedin.com/in/aastha-trivedi-809b94126', portfolio: 'aasthatrivedi1208.github.io/aastha-portfolio',
+        summary: 'Senior Data Engineer with 7+ years of experience designing scalable batch and streaming platforms across financial services. Expertise in cloud data engineering, large-scale migrations, real-time pipelines, and GenAI automation.'
+      };
+      const skills = ['Python','SQL','GCP','Azure','BigQuery','Airflow','Kafka','Spark','PySpark','Databricks','data migration','streaming','ETL','GenAI','RAG','machine learning'];
+      const fields = ['company','role','location','manager','description','companyNote','authorization'];
+      const value = (id) => document.getElementById(id).value.trim();
+      const setStatus = (message) => { document.getElementById('status').textContent = message; };
+      const getKeywords = () => { const text = value('description').toLowerCase(); return skills.filter((skill) => text.includes(skill.toLowerCase())).slice(0,4); };
+      const makeLetter = () => {
+        const company = value('company') || 'the company';
+        const role = value('role');
+        const roleLabel = role ? `the ${role} role` : 'a data engineering opportunity';
+        const location = value('location') ? ` in ${value('location')}` : '';
+        const keywords = getKeywords();
+        const match = keywords.length ? `Your focus on ${keywords.join(', ')} aligns closely with the platforms and workflows I have built throughout my career.` : 'The opportunity aligns closely with the scalable data platforms and production workflows I have built throughout my career.';
+        const note = value('companyNote') ? `I am especially interested in ${value('companyNote')}.` : `I am drawn to ${company}'s opportunity to build data products that make a visible difference to customers and teams.`;
+        return `Dear ${value('manager') || 'Hiring Team'},\n\nI am writing to apply for ${roleLabel} at ${company}${location}. ${profile.summary}\n\nAt PayPal, I have worked on production data migration and reporting pipelines handling 50M+ records daily, using technologies including BigQuery, GCS, and Cloud Composer (Airflow). I have also built event-driven workflows, modernized Oracle data systems, and applied LLM and retrieval-based automation to operational processes. ${match}\n\n${note} I bring a practical, ownership-oriented approach: designing reliable systems, collaborating across teams, and translating complex data requirements into maintainable solutions.\n\n${value('authorization') || 'I am open to discussing relocation and work authorization requirements.'}\n\nThank you for considering my application. I would welcome the opportunity to discuss how my experience can support ${company}'s team.\n\nSincerely,\nAastha Trivedi`;
+      };
+      const refresh = () => { if (!value('company')) { setStatus('Add a company name before generating the letter.'); return; } document.getElementById('letter').value = makeLetter(); setStatus('Letter refreshed. Edit the preview freely before downloading.'); };
+      const filename = (text) => (text.toLowerCase().trim().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'') || 'company');
+      document.getElementById('refresh').addEventListener('click', refresh);
+      document.getElementById('copy').addEventListener('click', async () => { try { await navigator.clipboard.writeText(document.getElementById('letter').value); setStatus('Letter copied to your clipboard.'); } catch { setStatus('Copy was blocked. Select the preview text and copy it manually.'); } });
+      document.getElementById('generator').addEventListener('submit', (event) => {
+        event.preventDefault();
+        if (!value('company')) { setStatus('Add a company name before downloading a PDF.'); return; }
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({ format:'a4', unit:'pt' });
+        const pageWidth = pdf.internal.pageSize.getWidth(), pageHeight = pdf.internal.pageSize.getHeight(), margin = 54, contentWidth = pageWidth - margin * 2;
+        let y = 58;
+        pdf.setTextColor(16,42,46); pdf.setFont('helvetica','bold'); pdf.setFontSize(17); pdf.text(profile.name, margin, y); y += 17;
+        pdf.setFont('helvetica','normal'); pdf.setFontSize(8.5); pdf.setTextColor(82,105,108); pdf.text(`${profile.location}  |  ${profile.email}`, margin, y); y += 12; pdf.text(`${profile.linkedin}  |  ${profile.portfolio}`, margin, y); y += 18;
+        pdf.setDrawColor(224,90,63); pdf.setLineWidth(1.2); pdf.line(margin,y,margin+contentWidth,y); y += 30;
+        pdf.setTextColor(16,42,46); pdf.setFontSize(10); pdf.text(new Intl.DateTimeFormat('en-US',{day:'numeric',month:'long',year:'numeric'}).format(new Date()),margin,y); y += 32;
+        pdf.setFontSize(10.5); pdf.setLineHeightFactor(1.48);
+        document.getElementById('letter').value.split('\n\n').map((item) => item.trim()).filter(Boolean).forEach((paragraph) => { const lines = pdf.splitTextToSize(paragraph,contentWidth); const height = lines.length * 15.5; if (y + height > pageHeight - 58) { pdf.addPage(); y = 58; } pdf.text(lines,margin,y); y += height + 16; });
+        pdf.setFontSize(7.5); pdf.setTextColor(82,105,108); pdf.text("Generated with Aastha's cover letter generator",margin,pageHeight - 28);
+        pdf.save(`Aastha_Trivedi_Cover_Letter_${filename(value('company'))}.pdf`); setStatus('PDF downloaded. Review the final text once before submitting.');
+      });
+      document.getElementById('letter').value = makeLetter();
+    </script>
+  </body>
+</html>

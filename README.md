@@ -38,3 +38,7 @@ Every later push to `main` deploys the updated site automatically.
 - Visual styling: `app/globals.css`
 - Résumé download: `public/Aastha_Trivedi_Resume.pdf`
 - Page metadata: `app/layout.tsx`
+
+## Cover letter generator
+
+After deployment, open `https://YOUR_USERNAME.github.io/aastha-portfolio/cover-letter/` to create editable, one-page cover letters and download them as PDFs. The fixed profile details and letter template are in `public/cover-letter/index.html`.
